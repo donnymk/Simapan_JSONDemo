@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Simapan</string>
+    <string name="nav_drawer_open">Drawer Open</string>
+    <string name="nav_drawer_close">Drawer Close</string>
+</resources>

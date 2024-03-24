@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:background="@color/md_yellow_300"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/navProfileImage"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:src="@drawable/fotoprofil"
+        app:civ_border_width="1dp"
+        app:civ_border_color="@color/white"/>
+
+    <TextView
+        android:id="@+id/navName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:textSize="16sp"
+        android:text="John Maliq"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <TextView
+        android:id="@+id/navEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="john_maliq@yahoo.com"/>
+
+</LinearLayout>
